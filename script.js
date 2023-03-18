@@ -1,19 +1,5 @@
 'use strict';
-
-/*
-console.log(document.querySelector('.message').textContent);
-document.querySelector('.message').textContent = '🥳 Correct Number!';
-
-document.querySelector('.score').textContent = 29;
-document.querySelector('.number').textContent = 89;
-
-console.log((document.querySelector('.guess').value = 23));
-console.log(document.querySelector('.guess').value);
-*/
-
 let secretNumber = Math.trunc(Math.random() * 21);
-// document.querySelector('.number').textContent = secretNumber;
-// let score = Number(document.querySelector('.score').textContent);
 let score = 20;
 let highScore = 0;
 
